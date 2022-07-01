@@ -1,0 +1,1103 @@
+<?xml version="1.0"?>
+<ArrayOfCommonClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Львовская</Street>
+      <HouseNumber>48</HouseNumber>
+      <AppNumber>86</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгений</FirstName>
+      <LastName>Гргорян</LastName>
+      <Patronimic>Рамзанович</Patronimic>
+      <BirthYear>1971</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971611492</MPhoneNum>
+      <HPhoneNum>+380977560201</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@ok.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Петровская</Street>
+      <HouseNumber>62</HouseNumber>
+      <AppNumber>76</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Иванова</LastName>
+      <Patronimic>Ивановна</Patronimic>
+      <BirthYear>2008</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971675593</MPhoneNum>
+      <HPhoneNum>+380975346300</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@dp.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Освободителей</Street>
+      <HouseNumber>12</HouseNumber>
+      <AppNumber>67</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Петр</FirstName>
+      <LastName>Дмитриев</LastName>
+      <Patronimic>Рамзанович</Patronimic>
+      <BirthYear>1983</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380977524698</MPhoneNum>
+      <HPhoneNum>+380971570217</HPhoneNum>
+    </Phones>
+    <Email>olo4747@i.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Пушкина</Street>
+      <HouseNumber>4</HouseNumber>
+      <AppNumber>86</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгения</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1987</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973351179</MPhoneNum>
+      <HPhoneNum>+380979311845</HPhoneNum>
+    </Phones>
+    <Email>loli@dp.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Героев войны</Street>
+      <HouseNumber>11</HouseNumber>
+      <AppNumber>75</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Илья</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1976</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974117779</MPhoneNum>
+      <HPhoneNum>+380974661104</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@kilo.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Гоголя</Street>
+      <HouseNumber>97</HouseNumber>
+      <AppNumber>5</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Анастасия</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Петровна</Patronimic>
+      <BirthYear>1988</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979517249</MPhoneNum>
+      <HPhoneNum>+380978605536</HPhoneNum>
+    </Phones>
+    <Email>olo4747@dp.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Петровская</Street>
+      <HouseNumber>39</HouseNumber>
+      <AppNumber>74</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Жеваго</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1978</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974840452</MPhoneNum>
+      <HPhoneNum>+380979383215</HPhoneNum>
+    </Phones>
+    <Email>pork@pro.pl</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>81</HouseNumber>
+      <AppNumber>44</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Сидорчук</LastName>
+      <Patronimic>Андреевна</Patronimic>
+      <BirthYear>2007</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973583439</MPhoneNum>
+      <HPhoneNum>+380974043845</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@plo.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Победы</Street>
+      <HouseNumber>71</HouseNumber>
+      <AppNumber>2</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Андрей</FirstName>
+      <LastName>Румбов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>2006</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380977851338</MPhoneNum>
+      <HPhoneNum>+380978995660</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@lo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>55</HouseNumber>
+      <AppNumber>10</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Петровна</Patronimic>
+      <BirthYear>1955</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979837518</MPhoneNum>
+      <HPhoneNum>+380978194630</HPhoneNum>
+    </Phones>
+    <Email>loli@lo.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Мичурина</Street>
+      <HouseNumber>32</HouseNumber>
+      <AppNumber>48</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Петр</FirstName>
+      <LastName>Жеваго</LastName>
+      <Patronimic>Александрович</Patronimic>
+      <BirthYear>1956</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974750156</MPhoneNum>
+      <HPhoneNum>+380974483672</HPhoneNum>
+    </Phones>
+    <Email>loli@dp.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Победы</Street>
+      <HouseNumber>78</HouseNumber>
+      <AppNumber>46</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Ирина</FirstName>
+      <LastName>Злива</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1966</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971980253</MPhoneNum>
+      <HPhoneNum>+380979076236</HPhoneNum>
+    </Phones>
+    <Email>loli@ok.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>81</HouseNumber>
+      <AppNumber>7</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Игорь</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1998</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979614746</MPhoneNum>
+      <HPhoneNum>+380978840474</HPhoneNum>
+    </Phones>
+    <Email>pork@ok.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>96</HouseNumber>
+      <AppNumber>38</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Тройкина</LastName>
+      <Patronimic>Николавевна</Patronimic>
+      <BirthYear>1986</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973445072</MPhoneNum>
+      <HPhoneNum>+380977496871</HPhoneNum>
+    </Phones>
+    <Email>olo4747@pro.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Гоголя</Street>
+      <HouseNumber>28</HouseNumber>
+      <AppNumber>23</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Илья</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Русланович</Patronimic>
+      <BirthYear>1955</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972885225</MPhoneNum>
+      <HPhoneNum>+380974787584</HPhoneNum>
+    </Phones>
+    <Email>olo4747@lo.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Освободителей</Street>
+      <HouseNumber>64</HouseNumber>
+      <AppNumber>1</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгения</FirstName>
+      <LastName>Злива</LastName>
+      <Patronimic>Николавевна</Patronimic>
+      <BirthYear>1986</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380978596781</MPhoneNum>
+      <HPhoneNum>+380971539884</HPhoneNum>
+    </Phones>
+    <Email>loli@kilo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>41</HouseNumber>
+      <AppNumber>42</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Андрей</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Александрович</Patronimic>
+      <BirthYear>2006</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973809980</MPhoneNum>
+      <HPhoneNum>+380979773515</HPhoneNum>
+    </Phones>
+    <Email>sirius99@plo.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>52</HouseNumber>
+      <AppNumber>30</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Ирина</FirstName>
+      <LastName>Иванова</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1987</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979254070</MPhoneNum>
+      <HPhoneNum>+380976343223</HPhoneNum>
+    </Phones>
+    <Email>pork@i.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Городская</Street>
+      <HouseNumber>61</HouseNumber>
+      <AppNumber>46</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Александрович</Patronimic>
+      <BirthYear>1959</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971915582</MPhoneNum>
+      <HPhoneNum>+380979250365</HPhoneNum>
+    </Phones>
+    <Email>sirius99@yandex.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Освободителей</Street>
+      <HouseNumber>9</HouseNumber>
+      <AppNumber>35</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Анастасия</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1955</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979339133</MPhoneNum>
+      <HPhoneNum>+380978957304</HPhoneNum>
+    </Phones>
+    <Email>sirius99@kilo.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>5</HouseNumber>
+      <AppNumber>20</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Александрович</Patronimic>
+      <BirthYear>1984</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972003068</MPhoneNum>
+      <HPhoneNum>+380977217015</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@kilo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Героев войны</Street>
+      <HouseNumber>71</HouseNumber>
+      <AppNumber>68</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иванна</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Ивановна</Patronimic>
+      <BirthYear>1974</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973015505</MPhoneNum>
+      <HPhoneNum>+380978439346</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@plo.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>27</HouseNumber>
+      <AppNumber>2</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Илья</FirstName>
+      <LastName>Пронин</LastName>
+      <Patronimic>Григорьевич</Patronimic>
+      <BirthYear>1982</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380977343735</MPhoneNum>
+      <HPhoneNum>+380978680370</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@kilo.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Пушкина</Street>
+      <HouseNumber>11</HouseNumber>
+      <AppNumber>82</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Тройкина</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>2002</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972788237</MPhoneNum>
+      <HPhoneNum>+380974784699</HPhoneNum>
+    </Phones>
+    <Email>pork@kilo.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Львовская</Street>
+      <HouseNumber>73</HouseNumber>
+      <AppNumber>3</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Зорин</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1964</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971647577</MPhoneNum>
+      <HPhoneNum>+380976703983</HPhoneNum>
+    </Phones>
+    <Email>olo4747@dp.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>18</HouseNumber>
+      <AppNumber>94</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иванна</FirstName>
+      <LastName>Рогозина</LastName>
+      <Patronimic>Андреевна</Patronimic>
+      <BirthYear>1977</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380976031029</MPhoneNum>
+      <HPhoneNum>+380974384901</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@i.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Пушкина</Street>
+      <HouseNumber>59</HouseNumber>
+      <AppNumber>74</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Петр</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Григорьевич</Patronimic>
+      <BirthYear>1993</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972173855</MPhoneNum>
+      <HPhoneNum>+380974216096</HPhoneNum>
+    </Phones>
+    <Email>sirius99@lo.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>90</HouseNumber>
+      <AppNumber>23</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Лопухова</LastName>
+      <Patronimic>Ивановна</Patronimic>
+      <BirthYear>1961</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971265523</MPhoneNum>
+      <HPhoneNum>+380974013126</HPhoneNum>
+    </Phones>
+    <Email>olo4747@plo.pl</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Освободителей</Street>
+      <HouseNumber>38</HouseNumber>
+      <AppNumber>17</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Петр</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Адреевич</Patronimic>
+      <BirthYear>1967</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979391962</MPhoneNum>
+      <HPhoneNum>+380978888391</HPhoneNum>
+    </Phones>
+    <Email>loli@kilo.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>47</HouseNumber>
+      <AppNumber>89</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Анастасия</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Николавевна</Patronimic>
+      <BirthYear>1957</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380976159222</MPhoneNum>
+      <HPhoneNum>+380973452508</HPhoneNum>
+    </Phones>
+    <Email>sirius99@gmail.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Освободителей</Street>
+      <HouseNumber>8</HouseNumber>
+      <AppNumber>69</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Григорьевич</Patronimic>
+      <BirthYear>1981</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380978924543</MPhoneNum>
+      <HPhoneNum>+380979938909</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@lo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Городская</Street>
+      <HouseNumber>49</HouseNumber>
+      <AppNumber>45</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Илона</FirstName>
+      <LastName>Кириенко</LastName>
+      <Patronimic>Петровна</Patronimic>
+      <BirthYear>2008</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974526829</MPhoneNum>
+      <HPhoneNum>+380978749248</HPhoneNum>
+    </Phones>
+    <Email>olo4747@lo.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Гоголя</Street>
+      <HouseNumber>25</HouseNumber>
+      <AppNumber>22</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Жеваго</LastName>
+      <Patronimic>Адреевич</Patronimic>
+      <BirthYear>2002</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380978804545</MPhoneNum>
+      <HPhoneNum>+380973864058</HPhoneNum>
+    </Phones>
+    <Email>loli@gmail.com</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Пушкина</Street>
+      <HouseNumber>11</HouseNumber>
+      <AppNumber>84</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Оксана</FirstName>
+      <LastName>Злива</LastName>
+      <Patronimic>Ивановна</Patronimic>
+      <BirthYear>1998</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972547324</MPhoneNum>
+      <HPhoneNum>+380979501589</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@gmail.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Ивановская</Street>
+      <HouseNumber>70</HouseNumber>
+      <AppNumber>84</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Петр</FirstName>
+      <LastName>Зорин</LastName>
+      <Patronimic>Русланович</Patronimic>
+      <BirthYear>1997</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979226490</MPhoneNum>
+      <HPhoneNum>+380974688438</HPhoneNum>
+    </Phones>
+    <Email>loli@lo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>51</HouseNumber>
+      <AppNumber>47</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Ирина</FirstName>
+      <LastName>Лопухова</LastName>
+      <Patronimic>Евгениевна</Patronimic>
+      <BirthYear>1995</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971377146</MPhoneNum>
+      <HPhoneNum>+380974599743</HPhoneNum>
+    </Phones>
+    <Email>olo4747@ok.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>24</HouseNumber>
+      <AppNumber>20</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгений</FirstName>
+      <LastName>Адаменко</LastName>
+      <Patronimic>Григорьевич</Patronimic>
+      <BirthYear>1996</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979600872</MPhoneNum>
+      <HPhoneNum>+380972125077</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@ok.pl</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Ивановская</Street>
+      <HouseNumber>19</HouseNumber>
+      <AppNumber>61</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Илона</FirstName>
+      <LastName>Шавлий</LastName>
+      <Patronimic>Николавевна</Patronimic>
+      <BirthYear>1988</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974187079</MPhoneNum>
+      <HPhoneNum>+380973343410</HPhoneNum>
+    </Phones>
+    <Email>olo4747@yandex.pl</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>3</HouseNumber>
+      <AppNumber>56</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Игорь</FirstName>
+      <LastName>Гргорян</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1978</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979479916</MPhoneNum>
+      <HPhoneNum>+380973255988</HPhoneNum>
+    </Phones>
+    <Email>pork@yandex.pl</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Мичурина</Street>
+      <HouseNumber>48</HouseNumber>
+      <AppNumber>58</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Ирина</FirstName>
+      <LastName>Петрова</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1964</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380979477706</MPhoneNum>
+      <HPhoneNum>+380972458886</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@ok.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Львовская</Street>
+      <HouseNumber>32</HouseNumber>
+      <AppNumber>32</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Игорь</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1966</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972413005</MPhoneNum>
+      <HPhoneNum>+380974626474</HPhoneNum>
+    </Phones>
+    <Email>pork@i.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Ивановская</Street>
+      <HouseNumber>72</HouseNumber>
+      <AppNumber>21</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгения</FirstName>
+      <LastName>Злива</LastName>
+      <Patronimic>Евгениевна</Patronimic>
+      <BirthYear>1960</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380973458034</MPhoneNum>
+      <HPhoneNum>+380972220033</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@gmail.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Мичурина</Street>
+      <HouseNumber>31</HouseNumber>
+      <AppNumber>23</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Игорь</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Адреевич</Patronimic>
+      <BirthYear>1997</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380976504760</MPhoneNum>
+      <HPhoneNum>+380973935689</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@plo.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>15</HouseNumber>
+      <AppNumber>94</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иванна</FirstName>
+      <LastName>Капустина</LastName>
+      <Patronimic>Петровна</Patronimic>
+      <BirthYear>2006</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380977979701</MPhoneNum>
+      <HPhoneNum>+380979872126</HPhoneNum>
+    </Phones>
+    <Email>olo4747@plo.pp</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Победы</Street>
+      <HouseNumber>50</HouseNumber>
+      <AppNumber>72</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Иван</FirstName>
+      <LastName>Кривов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>1978</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380972300578</MPhoneNum>
+      <HPhoneNum>+380978034580</HPhoneNum>
+    </Phones>
+    <Email>loli@dp.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Зинченка</Street>
+      <HouseNumber>50</HouseNumber>
+      <AppNumber>95</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Анастасия</FirstName>
+      <LastName>Кириенко</LastName>
+      <Patronimic>Евгениевна</Patronimic>
+      <BirthYear>1959</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974410400</MPhoneNum>
+      <HPhoneNum>+380979905034</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@gmail.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Киевская</Street>
+      <HouseNumber>29</HouseNumber>
+      <AppNumber>98</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгений</FirstName>
+      <LastName>Румбов</LastName>
+      <Patronimic>Романович</Patronimic>
+      <BirthYear>2009</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380974535329</MPhoneNum>
+      <HPhoneNum>+380976996498</HPhoneNum>
+    </Phones>
+    <Email>6525ololo@dp.ua</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Городская</Street>
+      <HouseNumber>63</HouseNumber>
+      <AppNumber>96</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Евгения</FirstName>
+      <LastName>Лопухова</LastName>
+      <Patronimic>Андреевна</Patronimic>
+      <BirthYear>2000</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971582636</MPhoneNum>
+      <HPhoneNum>+380978214454</HPhoneNum>
+    </Phones>
+    <Email>ouuu77@yandex.br</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Полозова</Street>
+      <HouseNumber>40</HouseNumber>
+      <AppNumber>98</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Андрей</FirstName>
+      <LastName>Виноградов</LastName>
+      <Patronimic>Русланович</Patronimic>
+      <BirthYear>1981</BirthYear>
+      <Sex>true</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380975793189</MPhoneNum>
+      <HPhoneNum>+380975150018</HPhoneNum>
+    </Phones>
+    <Email>olo4747@gmail.uk</Email>
+  </CommonClass>
+  <CommonClass>
+    <Adr>
+      <AdressesList />
+      <Street>Ивановская</Street>
+      <HouseNumber>16</HouseNumber>
+      <AppNumber>51</AppNumber>
+    </Adr>
+    <Pers>
+      <PersonsList />
+      <FirstName>Ирина</FirstName>
+      <LastName>Злива</LastName>
+      <Patronimic>Игоревна</Patronimic>
+      <BirthYear>1981</BirthYear>
+      <Sex>false</Sex>
+    </Pers>
+    <Phones>
+      <PersonsList />
+      <MPhoneNum>+380971586311</MPhoneNum>
+      <HPhoneNum>+380979207932</HPhoneNum>
+    </Phones>
+    <Email>olo4747@ok.br</Email>
+  </CommonClass>
+</ArrayOfCommonClass>

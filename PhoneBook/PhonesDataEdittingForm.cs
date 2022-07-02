@@ -116,7 +116,10 @@ namespace PhoneBook
                         return;
                     }
                     else
+                    {
+                        lib.CopyNewdataToPhonesRecord(NewRecord, PrevNewPhones.MPhoneNum, PrevNewPhones.HPhoneNum);                        
                         e.Cancel = false;
+                    }
                 }
             }
             else
@@ -144,8 +147,8 @@ namespace PhoneBook
                     }
                     else
                     {
+                        lib.CopyNewdataToPhonesRecord(SelectedRecord, PrevSelectPhones.MPhoneNum, PrevSelectPhones.HPhoneNum);
                         e.Cancel = false;
-                        return;
                     }
                 }
             }
@@ -155,12 +158,12 @@ namespace PhoneBook
         {
             if (NewRecord is null)
             {
-                lib.CopyNewdataToPhonesRecord(SelectedRecord, mPhoneNumTextBox.Text, hPhoneNumTextBox.Text);
+                lib.CopyNewdataToPhonesRecord(SelectedRecord, PrevSelectPhones.MPhoneNum, PrevSelectPhones.HPhoneNum);
                 Saved = true;
             }
             else
             {
-                lib.CopyNewdataToPhonesRecord(NewRecord, mPhoneNumTextBox.Text, hPhoneNumTextBox.Text);
+                lib.CopyNewdataToPhonesRecord(NewRecord, PrevNewPhones.MPhoneNum, PrevNewPhones.HPhoneNum);
                 Saved = true;
             }
             this.Close();

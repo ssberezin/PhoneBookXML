@@ -115,7 +115,11 @@ namespace PhoneBook
                         return;
                     }
                     else
+                    {
+                        lib.CopyNewdataToAdressRecord(NewRecord, PrevNewAdress.Street, PrevNewAdress.HouseNumber,
+                                     PrevNewAdress.AppNumber);                        
                         e.Cancel = false;
+                    }
                 }
             }
             else
@@ -143,8 +147,9 @@ namespace PhoneBook
                     }
                     else
                     {
+                        lib.CopyNewdataToAdressRecord(SelectedRecord, PrevSelectAdress.Street, PrevSelectAdress.HouseNumber,
+                                     PrevSelectAdress.AppNumber);
                         e.Cancel = false;
-                        return;
                     }
                 }
             }
@@ -154,14 +159,14 @@ namespace PhoneBook
         {
             if (NewRecord is null)
             {
-                lib.CopyNewdataToAdressRecord(SelectedRecord, streetTextBox.Text, houseNumberTextBox.Text,
-                                    (int)appNumNumericUpDown.Value);
+                lib.CopyNewdataToAdressRecord(SelectedRecord, PrevSelectAdress.Street, PrevSelectAdress.HouseNumber,
+                                    PrevSelectAdress.AppNumber);
                 Saved = true;
             }
             else
             {
-                lib.CopyNewdataToAdressRecord(NewRecord, streetTextBox.Text, houseNumberTextBox.Text,
-                                    (int)appNumNumericUpDown.Value);
+                lib.CopyNewdataToAdressRecord(NewRecord, PrevNewAdress.Street,PrevNewAdress.HouseNumber,
+                                    PrevNewAdress.AppNumber);
                 Saved = true;
             }
             this.Close();

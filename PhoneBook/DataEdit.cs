@@ -25,26 +25,29 @@ namespace PhoneBook
 
         Library lib = new Library();
 
+        //flag for understand is it saved or not
+        bool Saved { get; set; }
+
         int SelectedRecIndex { get; set; }
 
         public BindingList<CommonClass> SecSummaryList  = new BindingList<CommonClass>();
 
-        public DataEdit(BindingList<CommonClass> lst, CommonClass newRecord, CommonClass selectredRecord)
+        public DataEdit(BindingList<CommonClass> lst, CommonClass newRecord, CommonClass selectedRecord)
         {
             SecSummaryList = lst;           
 
             OriginNewRecord = newRecord;
-            OriginSelectedRecord = selectredRecord;
+            OriginSelectedRecord = selectedRecord;
 
-            NewRecord = NewRecord is null ? null : (CommonClass)OriginNewRecord.Clone(); 
-            SelectedRecord = SelectedRecord is null ? null : (CommonClass)OriginSelectedRecord.Clone();
+            NewRecord = newRecord is null ? null : (CommonClass)newRecord.Clone(); 
+            SelectedRecord = selectedRecord is null ? null : (CommonClass)selectedRecord.Clone();
 
             PrevNewRecord = NewRecord is null ? null : (CommonClass)NewRecord.Clone();
             SelectedRecord = SelectedRecord is null ? null : (CommonClass)SelectedRecord.Clone();
 
             InitializeComponent();
             if (NewRecord is null)
-                DefaultDataLoad(selectredRecord);
+                DefaultDataLoad(SelectedRecord);
             else
                 DefaultDataLoad(NewRecord);
         }
@@ -150,71 +153,121 @@ namespace PhoneBook
 
         }
 
-        private void ClearEmailBtn_Click(object sender, EventArgs e)
-        {
-            if (NewRecord is null)
-                SelectedRecord.Email = "";
-            else
-                NewRecord.Email = "";
-            textBox4.Text = "";
-        }
+       
 
-        //cencel  btn
-        private void button9_Click(object sender, EventArgs e)
-        {
-            //if there were come changes when return all to previous states
-
-            if (!(SelectedRecord is null) && SelectedRecord != PrevSelectedRecord)
-               lib.CopyValues(SelectedRecord, PrevSelectedRecord);
-
-            if (!(NewRecord is null) && NewRecord != PrevNewRecord)
-                lib.CopyValues(NewRecord, PrevNewRecord);
-            this.Close();
-        }
-
+        
        
 
         //check for changes before closing
         private void DataEdit_FormClosing(object sender, FormClosingEventArgs e)
         {
-            ////хз ак оно будет работать
-            //DialogResult dialogResult = MessageBox.Show("Не были сохранены изменения. Точно закрываем это окно?", "", MessageBoxButtons.YesNo);
-            //if (dialogResult == DialogResult.Yes)
-            //{
-            //    this.Close();
-            //}
-            //else if (dialogResult == DialogResult.No)
-            //{
-            //    return;
-            //}
-        }
-
-        private void SaveBtn_Click(object sender, EventArgs e)
-        {
-            //input data validation
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || !textBox4.Text.Contains("@"))
+            if (Saved)//straight way from SaveChanges and from cancel btn
             {
-                MessageBox.Show("НЕ могу сохранить. \nОдно или несколько полей пустые \nили поле email заполнено не корректно");
+                e.Cancel = false;
                 return;
             }
 
+            //if previous state is the same as current than close the form
+            if (!(NewRecord is null))
+            {
+               
+                if (NewRecord == OriginNewRecord)
+                {
+                    e.Cancel = false;
+                    return;
+                }
+                else
+                {
+                    if (MessageBox.Show("Не были сохранены внесенные изменения. \nСохранить?.\n"
+                        , "Сделать выбор", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {                        
 
+                        if (!lib.InputdataEditValidation(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text))
+                        {
+                            e.Cancel = true;
+                            return;
+                        }
+                        SaveChanges();
+                        e.Cancel = false;
+                        return;
+                    }
+                    else
+                        e.Cancel = false;
+                }
+            }
+            else
+            {
+              
+                if (SelectedRecord == OriginSelectedRecord)
+                {
+                    e.Cancel = false;
+                    return;
+                }
+                else
+                {
+                    if (MessageBox.Show("Не были сохранены внесенные изменения. \nСохранить?.\n"
+                        , "Сделать выбор", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        if (!lib.InputdataEditValidation(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text))
+                        {
+                            e.Cancel = true;
+                            return;
+                        }
+                        SaveChanges();
+                        e.Cancel = false;
+                        return;
+                    }
+                    else
+                    {
+                        e.Cancel = false;
+                        return;
+                    }
+                }
+            }
+        }
+
+        private void SaveBtn_Click(object sender, EventArgs e)
+        {            
+            
+            if (!lib.InputdataEditValidation(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text))            
+                return;
+            SaveChanges();
+            Saved = true;
+            this.Close();
+        }
+
+
+        private void SaveChanges()
+        {
             if (SelectedRecord is null)
             {
                 //add new data mode
                 lib.CopyValues(OriginNewRecord, NewRecord);
+                OriginNewRecord.Email = textBox4.Text;
+
                 SecSummaryList.Add(OriginNewRecord);
+
             }
-            else 
+            else
             {
                 //edit mode
+                OriginSelectedRecord.Email = textBox4.Text;
                 lib.CopyValues(OriginSelectedRecord, SelectedRecord);
-                
+
             }
             lib.FillDataToXML(SecSummaryList);
+            Saved = true;
             MessageBox.Show("Есть");
+
         }
 
-        
+        //cencel  btn
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Saved = true;           
+            this.Close();
+        }
+
+
     }
 }

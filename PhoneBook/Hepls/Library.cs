@@ -26,6 +26,18 @@ namespace PhoneBook.Helps
 
         //===================================Validation operations ===========================================
 
+
+
+        public bool InputdataEditValidation( string obj1, string obj2, string obj3, string em)
+        {
+            if (obj1 == "" || obj2 == "" || obj3 == "" || em == "" || !em.Contains("@"))
+            {
+                MessageBox.Show("НЕ могу сохранить. \nОдно или несколько полей пустые \nили поле email заполнено не корректно");
+                return false;
+            }
+            return true;
+        }
+
         private static readonly Regex someReg = new Regex(@"\D"); //regex that matches disallowed text
         public string PhoneNumValidation(string phone)
         {

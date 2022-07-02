@@ -64,7 +64,7 @@ namespace PhoneBook
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(443, 22);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 10;
             this.toolTip1.SetToolTip(this.textBox1, "Это поле только для чтения");
             // 
             // EditPersonalDataBtn
@@ -73,7 +73,7 @@ namespace PhoneBook
             this.EditPersonalDataBtn.Location = new System.Drawing.Point(637, 6);
             this.EditPersonalDataBtn.Name = "EditPersonalDataBtn";
             this.EditPersonalDataBtn.Size = new System.Drawing.Size(48, 23);
-            this.EditPersonalDataBtn.TabIndex = 2;
+            this.EditPersonalDataBtn.TabIndex = 0;
             this.EditPersonalDataBtn.Text = "...";
             this.EditPersonalDataBtn.UseVisualStyleBackColor = false;
             this.EditPersonalDataBtn.Click += new System.EventHandler(this.EditPersonalDataBtn_Click);
@@ -84,7 +84,7 @@ namespace PhoneBook
             this.ClearPersDataBtn.Location = new System.Drawing.Point(691, 6);
             this.ClearPersDataBtn.Name = "ClearPersDataBtn";
             this.ClearPersDataBtn.Size = new System.Drawing.Size(48, 23);
-            this.ClearPersDataBtn.TabIndex = 3;
+            this.ClearPersDataBtn.TabIndex = 1;
             this.ClearPersDataBtn.Text = "X";
             this.ClearPersDataBtn.UseVisualStyleBackColor = false;
             this.ClearPersDataBtn.Click += new System.EventHandler(this.button2_Click);
@@ -95,7 +95,7 @@ namespace PhoneBook
             this.ClearAdressBtn.Location = new System.Drawing.Point(691, 40);
             this.ClearAdressBtn.Name = "ClearAdressBtn";
             this.ClearAdressBtn.Size = new System.Drawing.Size(48, 23);
-            this.ClearAdressBtn.TabIndex = 7;
+            this.ClearAdressBtn.TabIndex = 3;
             this.ClearAdressBtn.Text = "X";
             this.ClearAdressBtn.UseVisualStyleBackColor = false;
             this.ClearAdressBtn.Click += new System.EventHandler(this.ClearAdressBtn_Click);
@@ -106,7 +106,7 @@ namespace PhoneBook
             this.EditAdressBtn.Location = new System.Drawing.Point(637, 40);
             this.EditAdressBtn.Name = "EditAdressBtn";
             this.EditAdressBtn.Size = new System.Drawing.Size(48, 23);
-            this.EditAdressBtn.TabIndex = 6;
+            this.EditAdressBtn.TabIndex = 2;
             this.EditAdressBtn.Text = "...";
             this.EditAdressBtn.UseVisualStyleBackColor = false;
             this.EditAdressBtn.Click += new System.EventHandler(this.EditAdressBtn_Click);
@@ -117,7 +117,7 @@ namespace PhoneBook
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(443, 22);
-            this.textBox2.TabIndex = 5;
+            this.textBox2.TabIndex = 10;
             this.toolTip1.SetToolTip(this.textBox2, "Это поле только для чтения");
             // 
             // label2
@@ -135,7 +135,7 @@ namespace PhoneBook
             this.ClearPhonesBtn.Location = new System.Drawing.Point(691, 74);
             this.ClearPhonesBtn.Name = "ClearPhonesBtn";
             this.ClearPhonesBtn.Size = new System.Drawing.Size(48, 23);
-            this.ClearPhonesBtn.TabIndex = 11;
+            this.ClearPhonesBtn.TabIndex = 5;
             this.ClearPhonesBtn.Text = "X";
             this.ClearPhonesBtn.UseVisualStyleBackColor = false;
             this.ClearPhonesBtn.Click += new System.EventHandler(this.ClearPhonesBtn_Click);
@@ -146,7 +146,7 @@ namespace PhoneBook
             this.EditPhonesBtn.Location = new System.Drawing.Point(637, 74);
             this.EditPhonesBtn.Name = "EditPhonesBtn";
             this.EditPhonesBtn.Size = new System.Drawing.Size(48, 23);
-            this.EditPhonesBtn.TabIndex = 10;
+            this.EditPhonesBtn.TabIndex = 4;
             this.EditPhonesBtn.Text = "...";
             this.EditPhonesBtn.UseVisualStyleBackColor = false;
             this.EditPhonesBtn.Click += new System.EventHandler(this.EditPhonesBtn_Click);
@@ -157,7 +157,7 @@ namespace PhoneBook
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(443, 22);
-            this.textBox3.TabIndex = 9;
+            this.textBox3.TabIndex = 10;
             this.toolTip1.SetToolTip(this.textBox3, "Это поле только для чтения");
             // 
             // label3
@@ -174,7 +174,7 @@ namespace PhoneBook
             this.textBox4.Location = new System.Drawing.Point(188, 109);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(443, 22);
-            this.textBox4.TabIndex = 13;
+            this.textBox4.TabIndex = 10;
             this.toolTip1.SetToolTip(this.textBox4, "Это поле только для чтения");
             // 
             // label4
@@ -192,7 +192,7 @@ namespace PhoneBook
             this.button9.Location = new System.Drawing.Point(378, 150);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(360, 36);
-            this.button9.TabIndex = 17;
+            this.button9.TabIndex = 7;
             this.button9.Text = "Отменить";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
@@ -203,7 +203,7 @@ namespace PhoneBook
             this.SaveBtn.Location = new System.Drawing.Point(15, 150);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(357, 36);
-            this.SaveBtn.TabIndex = 16;
+            this.SaveBtn.TabIndex = 6;
             this.SaveBtn.Text = "Сохранить";
             this.SaveBtn.UseVisualStyleBackColor = false;
             this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);

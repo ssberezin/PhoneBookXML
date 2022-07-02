@@ -33,11 +33,11 @@ namespace PhoneBook
             System.Windows.Forms.Label hPhoneNumLabel;
             System.Windows.Forms.Label mPhoneNumLabel;
             this.hPhoneNumTextBox = new System.Windows.Forms.TextBox();
+            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mPhoneNumTextBox = new System.Windows.Forms.TextBox();
             this.CancelBtn = new System.Windows.Forms.Button();
             this.OkBtn = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             hPhoneNumLabel = new System.Windows.Forms.Label();
             mPhoneNumLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.summaryListBindingSource)).BeginInit();
@@ -52,16 +52,6 @@ namespace PhoneBook
             hPhoneNumLabel.TabIndex = 1;
             hPhoneNumLabel.Text = "Дом. № телеофна";
             // 
-            // hPhoneNumTextBox
-            // 
-            this.hPhoneNumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Phones.HPhoneNum", true));
-            this.hPhoneNumTextBox.Location = new System.Drawing.Point(143, 12);
-            this.hPhoneNumTextBox.MaxLength = 13;
-            this.hPhoneNumTextBox.Name = "hPhoneNumTextBox";
-            this.hPhoneNumTextBox.Size = new System.Drawing.Size(289, 22);
-            this.hPhoneNumTextBox.TabIndex = 2;
-            this.hPhoneNumTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hPhoneNumTextBox_KeyPress);
-            // 
             // mPhoneNumLabel
             // 
             mPhoneNumLabel.AutoSize = true;
@@ -71,6 +61,20 @@ namespace PhoneBook
             mPhoneNumLabel.TabIndex = 3;
             mPhoneNumLabel.Text = "Моб. № телефона";
             // 
+            // hPhoneNumTextBox
+            // 
+            this.hPhoneNumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Phones.HPhoneNum", true));
+            this.hPhoneNumTextBox.Location = new System.Drawing.Point(143, 12);
+            this.hPhoneNumTextBox.MaxLength = 13;
+            this.hPhoneNumTextBox.Name = "hPhoneNumTextBox";
+            this.hPhoneNumTextBox.Size = new System.Drawing.Size(289, 22);
+            this.hPhoneNumTextBox.TabIndex = 0;
+            this.hPhoneNumTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hPhoneNumTextBox_KeyPress);
+            // 
+            // summaryListBindingSource
+            // 
+            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
+            // 
             // mPhoneNumTextBox
             // 
             this.mPhoneNumTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Phones.MPhoneNum", true));
@@ -78,7 +82,7 @@ namespace PhoneBook
             this.mPhoneNumTextBox.MaxLength = 13;
             this.mPhoneNumTextBox.Name = "mPhoneNumTextBox";
             this.mPhoneNumTextBox.Size = new System.Drawing.Size(289, 22);
-            this.mPhoneNumTextBox.TabIndex = 4;
+            this.mPhoneNumTextBox.TabIndex = 1;
             this.mPhoneNumTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mPhoneNumTextBox_KeyPress);
             // 
             // CancelBtn
@@ -87,7 +91,7 @@ namespace PhoneBook
             this.CancelBtn.Location = new System.Drawing.Point(221, 68);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(212, 36);
-            this.CancelBtn.TabIndex = 19;
+            this.CancelBtn.TabIndex = 3;
             this.CancelBtn.Text = "Отменить";
             this.CancelBtn.UseVisualStyleBackColor = false;
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -98,14 +102,10 @@ namespace PhoneBook
             this.OkBtn.Location = new System.Drawing.Point(6, 68);
             this.OkBtn.Name = "OkBtn";
             this.OkBtn.Size = new System.Drawing.Size(209, 36);
-            this.OkBtn.TabIndex = 18;
+            this.OkBtn.TabIndex = 2;
             this.OkBtn.Text = "Ok";
             this.OkBtn.UseVisualStyleBackColor = false;
             this.OkBtn.Click += new System.EventHandler(this.OkBtn_Click);
-            // 
-            // summaryListBindingSource
-            // 
-            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
             // 
             // PhonesDataEdittingForm
             // 

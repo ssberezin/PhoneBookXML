@@ -36,6 +36,7 @@ namespace PhoneBook
             System.Windows.Forms.Label patronimicLabel;
             System.Windows.Forms.Label sexLabel;
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
+            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
             this.patronimicTextBox = new System.Windows.Forms.TextBox();
             this.radioButtonMale = new System.Windows.Forms.RadioButton();
@@ -43,15 +44,14 @@ namespace PhoneBook
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.birthYearNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             birthYearLabel = new System.Windows.Forms.Label();
             firstNameLabel = new System.Windows.Forms.Label();
             lastNameLabel = new System.Windows.Forms.Label();
             patronimicLabel = new System.Windows.Forms.Label();
             sexLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.birthYearNumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.summaryListBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.birthYearNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // birthYearLabel
@@ -105,7 +105,11 @@ namespace PhoneBook
             this.firstNameTextBox.Location = new System.Drawing.Point(115, 37);
             this.firstNameTextBox.Name = "firstNameTextBox";
             this.firstNameTextBox.Size = new System.Drawing.Size(203, 22);
-            this.firstNameTextBox.TabIndex = 4;
+            this.firstNameTextBox.TabIndex = 1;
+            // 
+            // summaryListBindingSource
+            // 
+            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
             // 
             // lastNameTextBox
             // 
@@ -113,7 +117,7 @@ namespace PhoneBook
             this.lastNameTextBox.Location = new System.Drawing.Point(115, 9);
             this.lastNameTextBox.Name = "lastNameTextBox";
             this.lastNameTextBox.Size = new System.Drawing.Size(203, 22);
-            this.lastNameTextBox.TabIndex = 6;
+            this.lastNameTextBox.TabIndex = 0;
             // 
             // patronimicTextBox
             // 
@@ -121,7 +125,7 @@ namespace PhoneBook
             this.patronimicTextBox.Location = new System.Drawing.Point(115, 65);
             this.patronimicTextBox.Name = "patronimicTextBox";
             this.patronimicTextBox.Size = new System.Drawing.Size(203, 22);
-            this.patronimicTextBox.TabIndex = 8;
+            this.patronimicTextBox.TabIndex = 2;
             // 
             // radioButtonMale
             // 
@@ -129,7 +133,7 @@ namespace PhoneBook
             this.radioButtonMale.Location = new System.Drawing.Point(127, 126);
             this.radioButtonMale.Name = "radioButtonMale";
             this.radioButtonMale.Size = new System.Drawing.Size(86, 21);
-            this.radioButtonMale.TabIndex = 10;
+            this.radioButtonMale.TabIndex = 4;
             this.radioButtonMale.TabStop = true;
             this.radioButtonMale.Text = "Мужской";
             this.radioButtonMale.UseVisualStyleBackColor = true;
@@ -140,7 +144,7 @@ namespace PhoneBook
             this.radioButtonFemale.Location = new System.Drawing.Point(219, 128);
             this.radioButtonFemale.Name = "radioButtonFemale";
             this.radioButtonFemale.Size = new System.Drawing.Size(88, 21);
-            this.radioButtonFemale.TabIndex = 11;
+            this.radioButtonFemale.TabIndex = 5;
             this.radioButtonFemale.TabStop = true;
             this.radioButtonFemale.Text = "Женский";
             this.radioButtonFemale.UseVisualStyleBackColor = true;
@@ -151,7 +155,7 @@ namespace PhoneBook
             this.button1.Location = new System.Drawing.Point(4, 156);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 26);
-            this.button1.TabIndex = 12;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -162,7 +166,7 @@ namespace PhoneBook
             this.button2.Location = new System.Drawing.Point(184, 156);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(134, 26);
-            this.button2.TabIndex = 13;
+            this.button2.TabIndex = 7;
             this.button2.Text = "Отменить";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -182,16 +186,12 @@ namespace PhoneBook
             0});
             this.birthYearNumericUpDown.Name = "birthYearNumericUpDown";
             this.birthYearNumericUpDown.Size = new System.Drawing.Size(75, 22);
-            this.birthYearNumericUpDown.TabIndex = 14;
+            this.birthYearNumericUpDown.TabIndex = 3;
             this.birthYearNumericUpDown.Value = new decimal(new int[] {
             1900,
             0,
             0,
             0});
-            // 
-            // summaryListBindingSource
-            // 
-            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
             // 
             // PersonalDataEditForm
             // 
@@ -214,8 +214,8 @@ namespace PhoneBook
             this.Name = "PersonalDataEditForm";
             this.Text = "Персональные данные";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PersonalDataEditForm_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.birthYearNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.summaryListBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.birthYearNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

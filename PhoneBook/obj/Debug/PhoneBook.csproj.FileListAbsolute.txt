@@ -12,3 +12,17 @@ D:\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.DataEdit.resources
 D:\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.PersonalDataEditForm.resources
 D:\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.AdressDataEdittingForm.resources
 D:\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.PhonesDataEdittingForm.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\bin\Debug\PhoneBook.exe.config
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\bin\Debug\PhoneBook.exe
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\bin\Debug\PhoneBook.pdb
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.csproj.AssemblyReference.cache
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.AdressDataEdittingForm.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.DataEdit.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.Form1.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.PersonalDataEditForm.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.PhonesDataEdittingForm.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.cache
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.exe
+d:\Projects\PhoneBook\PhoneBookXML\PhoneBook\obj\Debug\PhoneBook.pdb

@@ -34,10 +34,10 @@ namespace PhoneBook
             System.Windows.Forms.Label houseNumberLabel;
             System.Windows.Forms.Label streetLabel;
             this.houseNumberTextBox = new System.Windows.Forms.TextBox();
+            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.streetTextBox = new System.Windows.Forms.TextBox();
             this.OkBtn = new System.Windows.Forms.Button();
             this.CencelBtn = new System.Windows.Forms.Button();
-            this.summaryListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.appNumNumericUpDown = new System.Windows.Forms.NumericUpDown();
             appNumberLabel = new System.Windows.Forms.Label();
@@ -65,14 +65,6 @@ namespace PhoneBook
             houseNumberLabel.TabIndex = 3;
             houseNumberLabel.Text = "№ дома";
             // 
-            // houseNumberTextBox
-            // 
-            this.houseNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Adr.HouseNumber", true));
-            this.houseNumberTextBox.Location = new System.Drawing.Point(124, 34);
-            this.houseNumberTextBox.Name = "houseNumberTextBox";
-            this.houseNumberTextBox.Size = new System.Drawing.Size(274, 22);
-            this.houseNumberTextBox.TabIndex = 4;
-            // 
             // streetLabel
             // 
             streetLabel.AutoSize = true;
@@ -82,20 +74,32 @@ namespace PhoneBook
             streetLabel.TabIndex = 5;
             streetLabel.Text = "Улица";
             // 
+            // houseNumberTextBox
+            // 
+            this.houseNumberTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Adr.HouseNumber", true));
+            this.houseNumberTextBox.Location = new System.Drawing.Point(124, 34);
+            this.houseNumberTextBox.Name = "houseNumberTextBox";
+            this.houseNumberTextBox.Size = new System.Drawing.Size(274, 22);
+            this.houseNumberTextBox.TabIndex = 1;
+            // 
+            // summaryListBindingSource
+            // 
+            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
+            // 
             // streetTextBox
             // 
             this.streetTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.summaryListBindingSource, "Adr.Street", true));
             this.streetTextBox.Location = new System.Drawing.Point(124, 6);
             this.streetTextBox.Name = "streetTextBox";
             this.streetTextBox.Size = new System.Drawing.Size(274, 22);
-            this.streetTextBox.TabIndex = 6;
+            this.streetTextBox.TabIndex = 0;
             // 
             // OkBtn
             // 
             this.OkBtn.Location = new System.Drawing.Point(12, 100);
             this.OkBtn.Name = "OkBtn";
             this.OkBtn.Size = new System.Drawing.Size(177, 23);
-            this.OkBtn.TabIndex = 7;
+            this.OkBtn.TabIndex = 3;
             this.OkBtn.Text = "Ok";
             this.OkBtn.UseVisualStyleBackColor = true;
             this.OkBtn.Click += new System.EventHandler(this.OkBtn_Click);
@@ -105,14 +109,10 @@ namespace PhoneBook
             this.CencelBtn.Location = new System.Drawing.Point(223, 100);
             this.CencelBtn.Name = "CencelBtn";
             this.CencelBtn.Size = new System.Drawing.Size(175, 23);
-            this.CencelBtn.TabIndex = 8;
+            this.CencelBtn.TabIndex = 4;
             this.CencelBtn.Text = "Отмена";
             this.CencelBtn.UseVisualStyleBackColor = true;
             this.CencelBtn.Click += new System.EventHandler(this.CencelBtn_Click);
-            // 
-            // summaryListBindingSource
-            // 
-            this.summaryListBindingSource.DataSource = typeof(PhoneBook.Model.CommonClass);
             // 
             // appNumNumericUpDown
             // 
@@ -129,7 +129,7 @@ namespace PhoneBook
             0});
             this.appNumNumericUpDown.Name = "appNumNumericUpDown";
             this.appNumNumericUpDown.Size = new System.Drawing.Size(75, 22);
-            this.appNumNumericUpDown.TabIndex = 15;
+            this.appNumNumericUpDown.TabIndex = 2;
             this.appNumNumericUpDown.Value = new decimal(new int[] {
             1,
             0,

@@ -104,8 +104,7 @@ namespace PhoneBook
 
             if (ColCount != SummaryList.Count())
             {
-                ReadFromXML();
-                DefaultdataLoad();
+                ReadFromXML();             
             }
             
         }
@@ -115,6 +114,16 @@ namespace PhoneBook
             int index = summaryListDataGridView.CurrentCell.RowIndex;
             DataEdit DataEditForm = new DataEdit(SummaryList, null, SummaryList[index]);
             DataEditForm.ShowDialog();
+        }
+
+        private void DeleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int index = summaryListDataGridView.CurrentCell.RowIndex;
+            SummaryList.Remove(SummaryList[summaryListDataGridView.CurrentCell.RowIndex]);
+            lib.FillDataToXML(SummaryList);
+            summaryListDataGridView.DataSource = null;
+            summaryListDataGridView.DataSource = SummaryList;
+
         }
     }
 

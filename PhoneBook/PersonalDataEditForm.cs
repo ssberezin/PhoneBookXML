@@ -120,7 +120,11 @@ namespace PhoneBook
                         return;
                     }
                     else
+                    {
+                        lib.CopyNewdataToRecord(NewRecord, PrevNewPerson.FirstName, PrevNewPerson.LastName,
+                               PrevNewPerson.Patronimic, (int)birthYearNumericUpDown.Value, PrevNewPerson.Sex);
                         e.Cancel = false;
+                    }
                 }
             }
             else            
@@ -148,8 +152,9 @@ namespace PhoneBook
                     }
                     else
                     {
-                        e.Cancel = false;
-                        return;
+                        lib.CopyNewdataToRecord(SelectedRecord, PrevSelectPers.FirstName, PrevSelectPers.LastName,
+                                PrevSelectPers.Patronimic, (int)birthYearNumericUpDown.Value, PrevSelectPers.Sex);
+                        e.Cancel = false;                        
                     }
                 }
             }
@@ -166,7 +171,7 @@ namespace PhoneBook
             }
             else
             {
-                lib.CopyNewdataToRecord(NewRecord, PrevNewPerson.FirstName, PrevNewPerson.LastName,
+                lib.CopyNewdataToRecord(NewRecord,   PrevNewPerson.FirstName, PrevNewPerson.LastName,
                                PrevNewPerson.Patronimic, (int)birthYearNumericUpDown.Value, PrevNewPerson.Sex);
                 Saved = true;                
             } 
